@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Grathwohl.me</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on Grathwohl.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Feb 2021 16:31:30 +0000</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>internet</title>
+      <link>http://example.org/categories/internet/</link>
+      <pubDate>Thu, 25 Feb 2021 16:31:30 +0000</pubDate>
+      
+      <guid>http://example.org/categories/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>http://example.org/categories/misc/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>http://example.org/categories/audio/</link>
+      <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
+      
+      <guid>http://example.org/categories/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foss</title>
+      <link>http://example.org/categories/foss/</link>
+      <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
+      
+      <guid>http://example.org/categories/foss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>media</title>
+      <link>http://example.org/categories/media/</link>
+      <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
+      
+      <guid>http://example.org/categories/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cameras</title>
+      <link>http://example.org/categories/cameras/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/cameras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>http://example.org/categories/cli/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://example.org/categories/linux/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>http://example.org/categories/streaming/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mastering</title>
+      <link>http://example.org/categories/mastering/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/mastering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>http://example.org/categories/workflow/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>media decentralization</title>
+      <link>http://example.org/categories/media-decentralization/</link>
+      <pubDate>Thu, 15 Nov 2018 10:44:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/media-decentralization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audible</title>
+      <link>http://example.org/categories/audible/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/audible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audiobooks</title>
+      <link>http://example.org/categories/audiobooks/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/audiobooks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>http://example.org/categories/ffmpeg/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacking</title>
+      <link>http://example.org/categories/hacking/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infosec</title>
+      <link>http://example.org/categories/infosec/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/infosec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opsec</title>
+      <link>http://example.org/categories/opsec/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/opsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>http://example.org/categories/policy/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>http://example.org/categories/security/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oppression</title>
+      <link>http://example.org/categories/oppression/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/oppression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>http://example.org/categories/technology/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aac</title>
+      <link>http://example.org/categories/aac/</link>
+      <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/aac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cenc</title>
+      <link>http://example.org/categories/cenc/</link>
+      <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/cenc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fdk-aac</title>
+      <link>http://example.org/categories/fdk-aac/</link>
+      <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
+      
+      <guid>http://example.org/categories/fdk-aac/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

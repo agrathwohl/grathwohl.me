@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<title>Grathwohl.me - Browser-Based Audio Metering With the Web Audio API</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="How to drive your user interface with browser-based audio analysis
+ The browser has gotten surprisingly good at processing real-time audio FFTs, thanks to the Web Audio API. As a result, incredible dynamic musical interfaces are now very achievable on the modern web, and it&rsquo;s a heck of a lot easier than most developer resources would have you believe.
+Above is a screengrab from my musical homepage, Multipli.city. There, I host all of my music from over the last ten years for free streaming and lossless download. ">
+<link rel="canonical" href="http://example.org/posts/2020-08-14-web-audio/" />
+
+<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  
+
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+
+
+<link rel="stylesheet" href="/css/hugo-tufte.min.css">
+
+<link rel="stylesheet"  href="/css/hugo-tufte-override.css">
+
+
+
+</head>
+<body >
+        
+<div id="layout" class="pure-g">
+  <article class="pure-u-1">
+    <header class="brand">
+  <a href="http://example.org/"><h1>Grathwohl.me</h1></a>
+  <h2>A Place For My Radical Immersions</h2>
+  <nav class="menu">
+    <ul>
+    
+        <li><a href="/"><i class='fas fa-home la-lg'></i>Home</a></li>
+    
+        <li><a href="/posts"><i class='fas fa-book fa-lg'></i> Posts</a></li>
+    
+        <li><a href="/categories"><i class='fas fa-tags fa-lg'></i> Categories</a></li>
+    
+        <li><a href="/about"><i class='fas fa-info-circle  fa-lg'></i> About</a></li>
+    
+    </ul>
+</nav>
+
+  <hr />
+</header>
+
+    <section>
+  
+  <h1 class="content-title">
+    
+    <a href="/posts/2020-08-14-web-audio/">Browser-Based Audio Metering With the Web Audio API</a>
+    
+  </h1>
+  
+    
+    
+  
+  </section>
+    
+
+    <section><blockquote>
+<p>How to drive your user interface with browser-based audio analysis</p>
+</blockquote>
+<p>The browser has gotten surprisingly good at processing real-time audio FFTs, thanks to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a>. As a result, incredible dynamic musical interfaces are now very achievable on the modern web, and it&rsquo;s a heck of a lot easier than most developer resources would have you believe.</p>
+<p><img src="/SMWebAudio.gif" alt=""></p>
+<p>Above is a screengrab from my musical homepage, <a href="https://multipli.city">Multipli.city</a>. There, I host all of my music from over the last ten years for free streaming and lossless download. One of the benefits to listening on the website is the unique visualization experience I offer listeners.</p>
+<p>This article will demonstrate how quick, easy, and powerful the Web Audio API can be, by taking you through the code that is needed to generate cool visualizations of your own.</p>
+<h2 id="how-its-done">How It&rsquo;s Done</h2>
+<p>Building off of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API#Creating_a_waveformoscilloscope">some example code from MDN</a>, I leverage the browser&rsquo;s Web Audio API to instantiate an audio analysis node, which is easily done via JavaScript. Then, I hook it into my JavaScript audio playback library, the wonderfully fantastic <a href="https://wavesurfer-js.org/">Wavesurfer.js</a>.</p>
+<h3 id="setting-up-the-analyser">Setting Up the Analyser</h3>
+<p>Our analyser is setup via JavaScript:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Instantiate our web audio playback library, Wavesurfer in this case
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">wavesurfer</span> <span class="o">=</span> <span class="nx">WaveSurfer</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
+  <span class="nx">container</span><span class="o">:</span> <span class="s2">&#34;#player&#34;</span><span class="p">,</span>
+  <span class="nx">cursorWidth</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+<span class="p">})</span>
+
+<span class="c1">// Grab the audio context from wavesurfer so we can insert an analysis node
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">audioCtx</span> <span class="o">=</span> <span class="nx">wavesurfer</span><span class="p">.</span><span class="nx">backend</span><span class="p">.</span><span class="nx">ac</span>
+
+<span class="c1">// Create the analyser node and give it a buffer size of 2048
+</span><span class="c1">// which is a good compromise between performance and resource use
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">analyser</span> <span class="o">=</span> <span class="nx">audioCtx</span><span class="p">.</span><span class="nx">createAnalyser</span><span class="p">()</span>
+<span class="nx">analyser</span><span class="p">.</span><span class="nx">fftSize</span> <span class="o">=</span> <span class="mi">2048</span>
+
+<span class="c1">// Setup the analyser to perform time domain analysis in real-time
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">bufferLength</span> <span class="o">=</span> <span class="nx">analyser</span><span class="p">.</span><span class="nx">frequencyBinCount</span>
+<span class="kd">var</span> <span class="nx">dataArray</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Uint8Array</span><span class="p">(</span><span class="nx">bufferLength</span><span class="p">)</span>
+<span class="nx">analyser</span><span class="p">.</span><span class="nx">getByteTimeDomainData</span><span class="p">(</span><span class="nx">dataArray</span><span class="p">)</span>
+
+<span class="c1">// Don&#39;t forget to attach the analyser as a Wavesurfer filter
+</span><span class="c1"></span><span class="nx">wavesurfer</span><span class="p">.</span><span class="nx">backend</span><span class="p">.</span><span class="nx">setFilter</span><span class="p">(</span><span class="nx">analyser</span><span class="p">)</span>
+</code></pre></div><h3 id="generating-the-canvas">Generating the Canvas</h3>
+<p>In HTML, create a canvas:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">canvas</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;c&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">canvas</span><span class="p">&gt;</span>
+</code></pre></div><p>Then grab that canvas&rsquo;s context inside your JavaScript:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">canvas</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&#34;c&#34;</span><span class="p">)</span>
+<span class="kd">var</span> <span class="nx">canvasCtx</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">&#34;2d&#34;</span><span class="p">)</span>
+</code></pre></div><p>At this point, we should have an audio analyser node and a canvas on which to draw. Now, we just need to create our animations and draw them onto the canvas.</p>
+<h3 id="creating-a-groovy-function">Creating A Groovy Function</h3>
+<p>We&rsquo;ll now need to write a function that will draw our audio analysis information onto the canvas, in the form of an oscilloscope.</p>
+<p>Our <code>draw()</code> function uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame"><code>requestAnimationFrame()</code></a> to tell the browser that we want it to continuously execute for the purposes of rendering an animation <strong>(A)</strong>. We then grab the current time domain data from the audio analyser node established previously <strong>(B)</strong>.</p>
+<p>Next, we use our <code>canvasCtx</code> to set the properties for the line we are about to draw on the canvas <strong>(C)</strong>. Once we&rsquo;ve done this preliminary work, we are ready to work with our analyser&rsquo;s buffered audio data. We start by looping through the captured audio and determining how high on the Y axis each item in the array ought to be to accurately render audio levels <strong>(D)</strong>. We conclude the execution of our <code>draw()</code> function by making our line on the canvas <strong>(E)</strong>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">draw</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// (A)
+</span><span class="c1"></span>  <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">draw</span><span class="p">)</span>
+
+  <span class="c1">// (B)
+</span><span class="c1"></span>  <span class="nx">analyser</span><span class="p">.</span><span class="nx">getByteTimeDomainData</span><span class="p">(</span><span class="nx">dataArray</span><span class="p">)</span>
+
+  <span class="c1">// (C)
+</span><span class="c1"></span>  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="sb">`rgb(0, 0, 0, </span><span class="si">${</span><span class="nx">alpha</span><span class="si">}</span><span class="sb">)`</span>
+  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">fillRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">width</span><span class="p">,</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">height</span><span class="p">)</span>
+  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">lineWidth</span> <span class="o">=</span> <span class="nx">lineWidth</span>
+  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">strokeStyle</span> <span class="o">=</span> <span class="s2">&#34;#FFF&#34;</span>
+  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">()</span>
+  <span class="kd">var</span> <span class="nx">sliceWidth</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">width</span> <span class="o">*</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="nx">bufferLength</span>
+
+  <span class="c1">// (D)
+</span><span class="c1"></span>  <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">bufferLength</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">v</span> <span class="o">=</span> <span class="nx">dataArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">/</span> <span class="mf">128.0</span>
+    <span class="kd">var</span> <span class="nx">y</span> <span class="o">=</span> <span class="nx">v</span> <span class="o">*</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">lineWidth</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">drawColors</span> <span class="o">=</span> <span class="nx">shuffle</span><span class="p">(</span><span class="nx">drawColors</span><span class="p">)</span>
+      <span class="p">}</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">lineTo</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span>
+
+      <span class="k">if</span> <span class="p">(</span><span class="nx">lineWidth</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">lineWidth</span> <span class="o">+=</span> <span class="p">(</span><span class="nx">linewidth</span> <span class="o">/</span> <span class="nx">y</span><span class="p">)</span>
+      <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">lineWidth</span> <span class="o">=</span> <span class="mi">2</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="nx">x</span> <span class="o">+=</span> <span class="nx">sliceWidth</span>
+  <span class="p">}</span>
+
+  <span class="c1">// (E)
+</span><span class="c1"></span>  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">lineTo</span><span class="p">(</span><span class="nx">canvas</span><span class="p">.</span><span class="nx">width</span><span class="p">,</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+  <span class="nx">canvasCtx</span><span class="p">.</span><span class="nx">stroke</span><span class="p">()</span>
+<span class="p">}</span>
+</code></pre></div><p>Instead of an oscilloscope design, you could also try a frequency graph like the one MDN outlines <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API#Creating_a_frequency_bar_graph">here</a>.</p>
+<h4 id="some-best-practices">Some Best Practices</h4>
+<p>When using <code>requestAnimationFrame()</code> it is wise to capture its return value to a new variable, such as <code>animationId</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">animationId</span> <span class="o">=</span> <span class="nx">requestAnimationFrame</span><span class="p">(</span><span class="nx">draw</span><span class="p">)</span>
+</code></pre></div><p>Doing this will allow you to use the <code>cancelAnimationFrame()</code> method on the window when you want to kill the animation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="nx">wavesurfer</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;finish&#39;</span><span class="p">,</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">animationid</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">cancelAnimationFrame</span><span class="p">(</span><span class="nx">animationId</span><span class="p">)</span>
+    <span class="nx">animationId</span> <span class="o">=</span> <span class="kc">undefined</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+</code></pre></div><h2 id="resources">Resources</h2>
+<p>Check out my public code <a href="https://github.com/SacredData/pRoJEct-NeGYa/blob/master/_includes/player.html">on GitHub</a> for examples of where to take your new freaky audio visualizations!</p>
+<p>Live examples of this work are available at <a href="https://multipli.city">https://multipli.city</a></p>
+</section>
+    <section>
+      <footer class="page-footer">
+		<hr>
+		<ul class="page-footer-menu">
+
+      
+      
+
+      
+      <li><a href="https://github.com/agrathwohl"><i class='fab fa-github fa-lg'></i></a></li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+      
+        <li><a href="https://multipli.city">△ MULTIPLI.CITY</a></li>
+      
+		</ul>
+
+  
+
+	<div class="copyright">
+	<p>
+    
+      &copy; 2021
+    Andrew Grathwohl.
+    All rights reserved.
+    
+  </p>
+</div>
+</footer>
+
+    </section>
+  </article>
+</div>
+
+    </body>
+
+</html>

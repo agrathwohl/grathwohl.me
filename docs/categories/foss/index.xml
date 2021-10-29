@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>foss on Grathwohl.me</title>
+    <link>http://example.org/categories/foss/</link>
+    <description>Recent content in foss on Grathwohl.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2020 09:26:13 +0000</lastBuildDate><atom:link href="http://example.org/categories/foss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Musicians: Want Money? Release For Free.</title>
+      <link>http://example.org/posts/2020-09-22-free-music/</link>
+      <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2020-09-22-free-music/</guid>
+      <description>Caesars don&amp;rsquo;t fear the pirate.
+ For 24 years, the song (Don&amp;rsquo;t Fear) The Reaper by the band, Blue Öyster Cult, was nothing more than a rock n&#39; roll smash hit with countless hours of radio play. It put the band on the map and made them rich. The album that featured the song initially, Agents of Fortune, went platinum in the US, meaning it sold at least 1,000,000 copies.</description>
+    </item>
+    
+    <item>
+      <title>Musicians: Want Money? Do Work.</title>
+      <link>http://example.org/posts/2020-09-21-music-revenues/</link>
+      <pubDate>Mon, 21 Sep 2020 12:14:04 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2020-09-21-music-revenues/</guid>
+      <description>Musicians everywhere want more - and they want it yesterday. But the answer has been here for two decades.
+ Musicians are complaining about the raw deals they are getting from streaming. That&amp;rsquo;s no surprise to anybody who has dealt with &amp;ldquo;DSPs&amp;rdquo; such as Spotify, Apple Music, and Deezer. Anyone who&amp;rsquo;s dealt with these services knows what little actual revenue they can expect to receive. However, isn&amp;rsquo;t it curious that all three of these companies also operate in the podcasting realm, where these kinds of complaints are rarely ever heard?</description>
+    </item>
+    
+    <item>
+      <title>Browser-Based Audio Metering With the Web Audio API</title>
+      <link>http://example.org/posts/2020-08-14-web-audio/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2020-08-14-web-audio/</guid>
+      <description>How to drive your user interface with browser-based audio analysis
+ The browser has gotten surprisingly good at processing real-time audio FFTs, thanks to the Web Audio API. As a result, incredible dynamic musical interfaces are now very achievable on the modern web, and it&amp;rsquo;s a heck of a lot easier than most developer resources would have you believe.
+Above is a screengrab from my musical homepage, Multipli.city. There, I host all of my music from over the last ten years for free streaming and lossless download.</description>
+    </item>
+    
+    <item>
+      <title>Working with RTSP in FFmpeg</title>
+      <link>http://example.org/posts/2020-06-23-rtsp-ffmpeg/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2020-06-23-rtsp-ffmpeg/</guid>
+      <description>Recently, I&amp;rsquo;ve found myself situated among a great fireworks battle in Brooklyn, NY. As we continue to work out the details about the heightened fireworks activity across the United States, I felt it was important that I document and share my experience to contribute what I can to the ongoing conversation. So, I grabbed an old IP camera I had in a corner gathering dust, placed it outside on my fire escape, and fired it up to get a decent shot of the night sky in my neighborhood.</description>
+    </item>
+    
+    <item>
+      <title>Playing Your Audible Audiobooks In Linux</title>
+      <link>http://example.org/posts/2018-09-10-audibleffmpeg/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2018-09-10-audibleffmpeg/</guid>
+      <description>If you want to convert an Audible .aax file into a less restrictive file format, you can do so with ease using FFmpeg, one of my all-time favorite GPL projects.
+Navigate to the directory where the .aax file is that you’d like to test on, and perform the following on the command line:
+ffmpeg -activation_bytes 1CEB00DA -i test.aax -vn -c:a copy output.mp4 Doing this creates an mp4 container with only an AAC audio stream inside.</description>
+    </item>
+    
+  </channel>
+</rss>

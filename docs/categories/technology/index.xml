@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Grathwohl.me</title>
+    <link>http://example.org/categories/technology/</link>
+    <description>Recent content in technology on Grathwohl.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tyrannical Illiteracy</title>
+      <link>http://example.org/posts/2017-12-10-tyrannical-illiteracy-pt1/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2017-12-10-tyrannical-illiteracy-pt1/</guid>
+      <description>In this series of essays, I explore the causes behind the Western world’s regression into tribalism, conflict, and intellectual malaise. As a proponent of Marshall McLuhan’s assessment of digital media, I assert that we arrived at our current situation by being irresponsible consumers of media technology.
+By ignoring the prophetic analyses of McLuhan, we brought our own civilization to its knees, allowing the arrival of the “global village.” There is nothing but aggression, conflict, and strife to be found in this village, and until media literacy becomes a commonality in our culture, we can expect to remain in this unfortunate state.</description>
+    </item>
+    
+  </channel>
+</rss>
