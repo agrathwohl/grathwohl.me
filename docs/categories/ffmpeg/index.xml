@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ffmpeg on Grathwohl.me</title>
-    <link>/categories/ffmpeg/</link>
+    <link>https://agrathwohl.github.io/grathwohl.me/categories/ffmpeg/</link>
     <description>Recent content in ffmpeg on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://agrathwohl.github.io/grathwohl.me/categories/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playing Your Audible Audiobooks In Linux</title>
-      <link>/posts/2018-09-10-audibleffmpeg/</link>
+      <link>https://agrathwohl.github.io/grathwohl.me/posts/2018-09-10-audibleffmpeg/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2018-09-10-audibleffmpeg/</guid>
+      <guid>https://agrathwohl.github.io/grathwohl.me/posts/2018-09-10-audibleffmpeg/</guid>
       <description>If you want to convert an Audible .aax file into a less restrictive file format, you can do so with ease using FFmpeg, one of my all-time favorite GPL projects.
 Navigate to the directory where the .aax file is that you’d like to test on, and perform the following on the command line:
 ffmpeg -activation_bytes 1CEB00DA -i test.aax -vn -c:a copy output.mp4 Doing this creates an mp4 container with only an AAC audio stream inside.</description>
@@ -20,10 +20,10 @@ ffmpeg -activation_bytes 1CEB00DA -i test.aax -vn -c:a copy output.mp4 Doing thi
     
     <item>
       <title>FFmpeg 3.0 Is Here</title>
-      <link>/posts/2016-02-14-ffmpeg3ishere/</link>
+      <link>https://agrathwohl.github.io/grathwohl.me/posts/2016-02-14-ffmpeg3ishere/</link>
       <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
       
-      <guid>/posts/2016-02-14-ffmpeg3ishere/</guid>
+      <guid>https://agrathwohl.github.io/grathwohl.me/posts/2016-02-14-ffmpeg3ishere/</guid>
       <description>The team behind FFmpeg unveiled a major new release, “Einstein,” recently, and in the release notes appears a strongly-worded suggestion:
 We strongly recommend users, distributors, and system integrators to upgrade unless they use current git master.
 (By the way, if you’re thinking that today may be the day to look into FFmpeg’s git master – don’t. Seriously, just don’t. This is no slight against the FFmpeg team - it’s just that with a project of this nature, you have to build the nightly release every day to get helpful suppo rt.</description>

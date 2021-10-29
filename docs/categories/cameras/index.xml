@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cameras on Grathwohl.me</title>
-    <link>/categories/cameras/</link>
+    <link>https://agrathwohl.github.io/grathwohl.me/categories/cameras/</link>
     <description>Recent content in cameras on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/cameras/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://agrathwohl.github.io/grathwohl.me/categories/cameras/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with RTSP in FFmpeg</title>
-      <link>/posts/2020-06-23-rtsp-ffmpeg/</link>
+      <link>https://agrathwohl.github.io/grathwohl.me/posts/2020-06-23-rtsp-ffmpeg/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2020-06-23-rtsp-ffmpeg/</guid>
+      <guid>https://agrathwohl.github.io/grathwohl.me/posts/2020-06-23-rtsp-ffmpeg/</guid>
       <description>Recently, I&amp;rsquo;ve found myself situated among a great fireworks battle in Brooklyn, NY. As we continue to work out the details about the heightened fireworks activity across the United States, I felt it was important that I document and share my experience to contribute what I can to the ongoing conversation. So, I grabbed an old IP camera I had in a corner gathering dust, placed it outside on my fire escape, and fired it up to get a decent shot of the night sky in my neighborhood.</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cenc on Grathwohl.me</title>
-    <link>/categories/cenc/</link>
+    <link>https://agrathwohl.github.io/grathwohl.me/categories/cenc/</link>
     <description>Recent content in cenc on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Feb 2016 04:11:00 +0000</lastBuildDate><atom:link href="/categories/cenc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Feb 2016 04:11:00 +0000</lastBuildDate><atom:link href="https://agrathwohl.github.io/grathwohl.me/categories/cenc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FFmpeg 3.0 Is Here</title>
-      <link>/posts/2016-02-14-ffmpeg3ishere/</link>
+      <link>https://agrathwohl.github.io/grathwohl.me/posts/2016-02-14-ffmpeg3ishere/</link>
       <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
       
-      <guid>/posts/2016-02-14-ffmpeg3ishere/</guid>
+      <guid>https://agrathwohl.github.io/grathwohl.me/posts/2016-02-14-ffmpeg3ishere/</guid>
       <description>The team behind FFmpeg unveiled a major new release, “Einstein,” recently, and in the release notes appears a strongly-worded suggestion:
 We strongly recommend users, distributors, and system integrators to upgrade unless they use current git master.
 (By the way, if you’re thinking that today may be the day to look into FFmpeg’s git master – don’t. Seriously, just don’t. This is no slight against the FFmpeg team - it’s just that with a project of this nature, you have to build the nightly release every day to get helpful suppo rt.</description>

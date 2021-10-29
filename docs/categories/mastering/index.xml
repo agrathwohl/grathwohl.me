@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mastering on Grathwohl.me</title>
-    <link>/categories/mastering/</link>
+    <link>https://agrathwohl.github.io/grathwohl.me/categories/mastering/</link>
     <description>Recent content in mastering on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/mastering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://agrathwohl.github.io/grathwohl.me/categories/mastering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audio Mastering Workflow for Linux</title>
-      <link>/posts/2019-05-05-linuxmasteringflow_1/</link>
+      <link>https://agrathwohl.github.io/grathwohl.me/posts/2019-05-05-linuxmasteringflow_1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2019-05-05-linuxmasteringflow_1/</guid>
+      <guid>https://agrathwohl.github.io/grathwohl.me/posts/2019-05-05-linuxmasteringflow_1/</guid>
       <description>This series of posts will detail the audio mastering workflow I employ on my main Linux workstation:
    Watercooled Full ATX Tower Intel i9 @ 4.2Ghz 64GB ECC RAM Arch Linux with the linux-rt kernel patches RME HDSPe MADI PCI-X Interface RME Babyface Pro USB Audio Interface   Why? The answer is simple: Linux provides the best audio engineering workflow for audio professionals - hands down. Don&amp;rsquo;t believe me?</description>
     </item>
