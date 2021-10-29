@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>audio on Grathwohl.me</title>
-    <link>http://example.org/categories/audio/</link>
+    <link>/categories/audio/</link>
     <description>Recent content in audio on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2020 09:26:13 +0000</lastBuildDate><atom:link href="http://example.org/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 09:26:13 +0000</lastBuildDate><atom:link href="/categories/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Musicians: Want Money? Release For Free.</title>
-      <link>http://example.org/posts/2020-09-22-free-music/</link>
+      <link>/posts/2020-09-22-free-music/</link>
       <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-09-22-free-music/</guid>
+      <guid>/posts/2020-09-22-free-music/</guid>
       <description>Caesars don&amp;rsquo;t fear the pirate.
  For 24 years, the song (Don&amp;rsquo;t Fear) The Reaper by the band, Blue Öyster Cult, was nothing more than a rock n&#39; roll smash hit with countless hours of radio play. It put the band on the map and made them rich. The album that featured the song initially, Agents of Fortune, went platinum in the US, meaning it sold at least 1,000,000 copies.</description>
     </item>
     
     <item>
       <title>Musicians: Want Money? Do Work.</title>
-      <link>http://example.org/posts/2020-09-21-music-revenues/</link>
+      <link>/posts/2020-09-21-music-revenues/</link>
       <pubDate>Mon, 21 Sep 2020 12:14:04 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-09-21-music-revenues/</guid>
+      <guid>/posts/2020-09-21-music-revenues/</guid>
       <description>Musicians everywhere want more - and they want it yesterday. But the answer has been here for two decades.
  Musicians are complaining about the raw deals they are getting from streaming. That&amp;rsquo;s no surprise to anybody who has dealt with &amp;ldquo;DSPs&amp;rdquo; such as Spotify, Apple Music, and Deezer. Anyone who&amp;rsquo;s dealt with these services knows what little actual revenue they can expect to receive. However, isn&amp;rsquo;t it curious that all three of these companies also operate in the podcasting realm, where these kinds of complaints are rarely ever heard?</description>
     </item>
     
     <item>
       <title>Browser-Based Audio Metering With the Web Audio API</title>
-      <link>http://example.org/posts/2020-08-14-web-audio/</link>
+      <link>/posts/2020-08-14-web-audio/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-08-14-web-audio/</guid>
+      <guid>/posts/2020-08-14-web-audio/</guid>
       <description>How to drive your user interface with browser-based audio analysis
  The browser has gotten surprisingly good at processing real-time audio FFTs, thanks to the Web Audio API. As a result, incredible dynamic musical interfaces are now very achievable on the modern web, and it&amp;rsquo;s a heck of a lot easier than most developer resources would have you believe.
 Above is a screengrab from my musical homepage, Multipli.city. There, I host all of my music from over the last ten years for free streaming and lossless download.</description>
@@ -40,10 +40,10 @@ Above is a screengrab from my musical homepage, Multipli.city. There, I host all
     
     <item>
       <title>Audio Mastering Workflow for Linux</title>
-      <link>http://example.org/posts/2019-05-05-linuxmasteringflow_1/</link>
+      <link>/posts/2019-05-05-linuxmasteringflow_1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2019-05-05-linuxmasteringflow_1/</guid>
+      <guid>/posts/2019-05-05-linuxmasteringflow_1/</guid>
       <description>This series of posts will detail the audio mastering workflow I employ on my main Linux workstation:
    Watercooled Full ATX Tower Intel i9 @ 4.2Ghz 64GB ECC RAM Arch Linux with the linux-rt kernel patches RME HDSPe MADI PCI-X Interface RME Babyface Pro USB Audio Interface   Why? The answer is simple: Linux provides the best audio engineering workflow for audio professionals - hands down. Don&amp;rsquo;t believe me?</description>
     </item>

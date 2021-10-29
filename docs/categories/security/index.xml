@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security on Grathwohl.me</title>
-    <link>http://example.org/categories/security/</link>
+    <link>/categories/security/</link>
     <description>Recent content in security on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hacking Isn’t Searching; It’s Quartering</title>
-      <link>http://example.org/posts/2018-06-25-hacking-is-quartering/</link>
+      <link>/posts/2018-06-25-hacking-is-quartering/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2018-06-25-hacking-is-quartering/</guid>
+      <guid>/posts/2018-06-25-hacking-is-quartering/</guid>
       <description>A common critique of the deep state’s dragnet surveillance operation is to depict it as a violation of the Fourth Amendment. The pundits and politicians who publicly railed against the recent NSA and FBI revelations commonly referred to the issue as one of “warrant-less” wiretapping, data collection, and spying.
 But that isn’t quite the game that signals intelligence analysts and network security experts are playing.
 The invocation of the term “warrant-less” is unsurprising; it hearkens back to the Watergate scandal, and by making that comparison, it helps to make the case that these surveillance programs were just as serious and important as that major kerfuffle back in 1972.</description>

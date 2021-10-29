@@ -2,134 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2021-02-25T16:31:30+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/posts/2021-02-25-censorship/</loc>
+    <loc>/posts/2021-02-25-censorship/</loc>
     <lastmod>2021-02-25T16:31:30+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2021-02-25T16:31:30+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/internet/</loc>
+    <loc>/categories/internet/</loc>
     <lastmod>2021-02-25T16:31:30+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-02-25T16:31:30+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2021-01-16-feedback/</loc>
+    <loc>/posts/2021-01-16-feedback/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/misc/</loc>
+    <loc>/categories/misc/</loc>
     <lastmod>2021-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/audio/</loc>
+    <loc>/categories/audio/</loc>
     <lastmod>2020-09-22T09:26:13+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/foss/</loc>
+    <loc>/categories/foss/</loc>
     <lastmod>2020-09-22T09:26:13+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/media/</loc>
+    <loc>/categories/media/</loc>
     <lastmod>2020-09-22T09:26:13+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2020-09-22-free-music/</loc>
+    <loc>/posts/2020-09-22-free-music/</loc>
     <lastmod>2020-09-22T09:26:13+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2020-09-21-music-revenues/</loc>
+    <loc>/posts/2020-09-21-music-revenues/</loc>
     <lastmod>2020-09-21T12:14:04+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2020-08-14-web-audio/</loc>
+    <loc>/posts/2020-08-14-web-audio/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/cameras/</loc>
+    <loc>/categories/cameras/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/cli/</loc>
+    <loc>/categories/cli/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/linux/</loc>
+    <loc>/categories/linux/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/streaming/</loc>
+    <loc>/categories/streaming/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2020-06-23-rtsp-ffmpeg/</loc>
+    <loc>/posts/2020-06-23-rtsp-ffmpeg/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2019-11-04-distributed-media/</loc>
+    <loc>/posts/2019-11-04-distributed-media/</loc>
     <lastmod>2019-11-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2019-05-05-linuxmasteringflow_1/</loc>
+    <loc>/posts/2019-05-05-linuxmasteringflow_1/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/mastering/</loc>
+    <loc>/categories/mastering/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/workflow/</loc>
+    <loc>/categories/workflow/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/media-decentralization/</loc>
+    <loc>/categories/media-decentralization/</loc>
     <lastmod>2018-11-15T10:44:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2018-11-15-participation_digital_media/</loc>
+    <loc>/posts/2018-11-15-participation_digital_media/</loc>
     <lastmod>2018-11-15T10:44:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/audible/</loc>
+    <loc>/categories/audible/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/audiobooks/</loc>
+    <loc>/categories/audiobooks/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/ffmpeg/</loc>
+    <loc>/categories/ffmpeg/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2018-09-10-audibleffmpeg/</loc>
+    <loc>/posts/2018-09-10-audibleffmpeg/</loc>
     <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/hacking/</loc>
+    <loc>/categories/hacking/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2018-06-25-hacking-is-quartering/</loc>
+    <loc>/posts/2018-06-25-hacking-is-quartering/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/infosec/</loc>
+    <loc>/categories/infosec/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/opsec/</loc>
+    <loc>/categories/opsec/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/policy/</loc>
+    <loc>/categories/policy/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/security/</loc>
+    <loc>/categories/security/</loc>
     <lastmod>2018-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/oppression/</loc>
+    <loc>/categories/oppression/</loc>
     <lastmod>2017-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/technology/</loc>
+    <loc>/categories/technology/</loc>
     <lastmod>2017-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2017-12-10-tyrannical-illiteracy-pt1/</loc>
+    <loc>/posts/2017-12-10-tyrannical-illiteracy-pt1/</loc>
     <lastmod>2017-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/aac/</loc>
+    <loc>/categories/aac/</loc>
     <lastmod>2016-02-15T04:11:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/cenc/</loc>
+    <loc>/categories/cenc/</loc>
     <lastmod>2016-02-15T04:11:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/fdk-aac/</loc>
+    <loc>/categories/fdk-aac/</loc>
     <lastmod>2016-02-15T04:11:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2016-02-14-ffmpeg3ishere/</loc>
+    <loc>/posts/2016-02-14-ffmpeg3ishere/</loc>
     <lastmod>2016-02-15T04:11:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://example.org/series/</loc>
+    <loc>/series/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>misc on Grathwohl.me</title>
-    <link>http://example.org/categories/misc/</link>
+    <link>/categories/misc/</link>
     <description>Recent content in misc on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FEEDBACK</title>
-      <link>http://example.org/posts/2021-01-16-feedback/</link>
+      <link>/posts/2021-01-16-feedback/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2021-01-16-feedback/</guid>
+      <guid>/posts/2021-01-16-feedback/</guid>
       <description>I&amp;rsquo;ve learned a lot recently about feedback. As an audio engineer, it&amp;rsquo;s something I know a lot about in practice.
 But I&amp;rsquo;d done so little thinking about it as a means for understanding systems. I was too busy toiling in the field of electronics, to realize that feedback takes place in nature all around us, and is key to understanding knowledge itself.
 Feedback is a simple concept with overwhelming, enormous implications.</description>

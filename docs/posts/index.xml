@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Grathwohl.me</title>
-    <link>http://example.org/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Grathwohl.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Feb 2021 16:31:30 +0000</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 16:31:30 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Big Tech Censorship Is Net Neutrality 2.0</title>
-      <link>http://example.org/posts/2021-02-25-censorship/</link>
+      <link>/posts/2021-02-25-censorship/</link>
       <pubDate>Thu, 25 Feb 2021 16:31:30 +0000</pubDate>
       
-      <guid>http://example.org/posts/2021-02-25-censorship/</guid>
+      <guid>/posts/2021-02-25-censorship/</guid>
       <description>Ever since a plurality of Americans indicated their support for net neutrality circa 2008, a common refrain has been propagated, that leaving ISPs unchecked could usher in a new kind of restricted and censored internet.
 Proponents of net neutrality in the United States indicate that their support stems from their fears that ISPs will behave badly, and that we will all suffer as a result.
 It was suggested that without net neutrality, nothing would stop companies from offering privileged access to certain web services at the expense of others, stifling free speech and competition in the web technology space.</description>
@@ -20,10 +20,10 @@ It was suggested that without net neutrality, nothing would stop companies from 
     
     <item>
       <title>FEEDBACK</title>
-      <link>http://example.org/posts/2021-01-16-feedback/</link>
+      <link>/posts/2021-01-16-feedback/</link>
       <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2021-01-16-feedback/</guid>
+      <guid>/posts/2021-01-16-feedback/</guid>
       <description>I&amp;rsquo;ve learned a lot recently about feedback. As an audio engineer, it&amp;rsquo;s something I know a lot about in practice.
 But I&amp;rsquo;d done so little thinking about it as a means for understanding systems. I was too busy toiling in the field of electronics, to realize that feedback takes place in nature all around us, and is key to understanding knowledge itself.
 Feedback is a simple concept with overwhelming, enormous implications.</description>
@@ -31,30 +31,30 @@ Feedback is a simple concept with overwhelming, enormous implications.</descript
     
     <item>
       <title>Musicians: Want Money? Release For Free.</title>
-      <link>http://example.org/posts/2020-09-22-free-music/</link>
+      <link>/posts/2020-09-22-free-music/</link>
       <pubDate>Tue, 22 Sep 2020 09:26:13 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-09-22-free-music/</guid>
+      <guid>/posts/2020-09-22-free-music/</guid>
       <description>Caesars don&amp;rsquo;t fear the pirate.
  For 24 years, the song (Don&amp;rsquo;t Fear) The Reaper by the band, Blue Öyster Cult, was nothing more than a rock n&#39; roll smash hit with countless hours of radio play. It put the band on the map and made them rich. The album that featured the song initially, Agents of Fortune, went platinum in the US, meaning it sold at least 1,000,000 copies.</description>
     </item>
     
     <item>
       <title>Musicians: Want Money? Do Work.</title>
-      <link>http://example.org/posts/2020-09-21-music-revenues/</link>
+      <link>/posts/2020-09-21-music-revenues/</link>
       <pubDate>Mon, 21 Sep 2020 12:14:04 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-09-21-music-revenues/</guid>
+      <guid>/posts/2020-09-21-music-revenues/</guid>
       <description>Musicians everywhere want more - and they want it yesterday. But the answer has been here for two decades.
  Musicians are complaining about the raw deals they are getting from streaming. That&amp;rsquo;s no surprise to anybody who has dealt with &amp;ldquo;DSPs&amp;rdquo; such as Spotify, Apple Music, and Deezer. Anyone who&amp;rsquo;s dealt with these services knows what little actual revenue they can expect to receive. However, isn&amp;rsquo;t it curious that all three of these companies also operate in the podcasting realm, where these kinds of complaints are rarely ever heard?</description>
     </item>
     
     <item>
       <title>Browser-Based Audio Metering With the Web Audio API</title>
-      <link>http://example.org/posts/2020-08-14-web-audio/</link>
+      <link>/posts/2020-08-14-web-audio/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-08-14-web-audio/</guid>
+      <guid>/posts/2020-08-14-web-audio/</guid>
       <description>How to drive your user interface with browser-based audio analysis
  The browser has gotten surprisingly good at processing real-time audio FFTs, thanks to the Web Audio API. As a result, incredible dynamic musical interfaces are now very achievable on the modern web, and it&amp;rsquo;s a heck of a lot easier than most developer resources would have you believe.
 Above is a screengrab from my musical homepage, Multipli.city. There, I host all of my music from over the last ten years for free streaming and lossless download.</description>
@@ -62,48 +62,48 @@ Above is a screengrab from my musical homepage, Multipli.city. There, I host all
     
     <item>
       <title>Working with RTSP in FFmpeg</title>
-      <link>http://example.org/posts/2020-06-23-rtsp-ffmpeg/</link>
+      <link>/posts/2020-06-23-rtsp-ffmpeg/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2020-06-23-rtsp-ffmpeg/</guid>
+      <guid>/posts/2020-06-23-rtsp-ffmpeg/</guid>
       <description>Recently, I&amp;rsquo;ve found myself situated among a great fireworks battle in Brooklyn, NY. As we continue to work out the details about the heightened fireworks activity across the United States, I felt it was important that I document and share my experience to contribute what I can to the ongoing conversation. So, I grabbed an old IP camera I had in a corner gathering dust, placed it outside on my fire escape, and fired it up to get a decent shot of the night sky in my neighborhood.</description>
     </item>
     
     <item>
       <title>Distributed Media&#39;s Ancient Origins</title>
-      <link>http://example.org/posts/2019-11-04-distributed-media/</link>
+      <link>/posts/2019-11-04-distributed-media/</link>
       <pubDate>Mon, 04 Nov 2019 12:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2019-11-04-distributed-media/</guid>
+      <guid>/posts/2019-11-04-distributed-media/</guid>
       <description>This article originally appeared on the ARA Medium channel.
  How A Two-Million Year Old Event Helped Us Build the Future As 2019’s ongoing streaming media wars continue to heat up, technologists peering around the corner are beginning to see the distinct advantages in decentralizing and distributing our media workflows. The rise of AT&amp;amp;T’s WarnerMedia and Oath’s transformation into Verizon Media signal that the world of content creation is already undergoing a significant shift in distribution practices.</description>
     </item>
     
     <item>
       <title>Audio Mastering Workflow for Linux</title>
-      <link>http://example.org/posts/2019-05-05-linuxmasteringflow_1/</link>
+      <link>/posts/2019-05-05-linuxmasteringflow_1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2019-05-05-linuxmasteringflow_1/</guid>
+      <guid>/posts/2019-05-05-linuxmasteringflow_1/</guid>
       <description>This series of posts will detail the audio mastering workflow I employ on my main Linux workstation:
    Watercooled Full ATX Tower Intel i9 @ 4.2Ghz 64GB ECC RAM Arch Linux with the linux-rt kernel patches RME HDSPe MADI PCI-X Interface RME Babyface Pro USB Audio Interface   Why? The answer is simple: Linux provides the best audio engineering workflow for audio professionals - hands down. Don&amp;rsquo;t believe me?</description>
     </item>
     
     <item>
       <title>Participation: Digital Media&#39;s Missing Ingredient</title>
-      <link>http://example.org/posts/2018-11-15-participation_digital_media/</link>
+      <link>/posts/2018-11-15-participation_digital_media/</link>
       <pubDate>Thu, 15 Nov 2018 10:44:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2018-11-15-participation_digital_media/</guid>
+      <guid>/posts/2018-11-15-participation_digital_media/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Playing Your Audible Audiobooks In Linux</title>
-      <link>http://example.org/posts/2018-09-10-audibleffmpeg/</link>
+      <link>/posts/2018-09-10-audibleffmpeg/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2018-09-10-audibleffmpeg/</guid>
+      <guid>/posts/2018-09-10-audibleffmpeg/</guid>
       <description>If you want to convert an Audible .aax file into a less restrictive file format, you can do so with ease using FFmpeg, one of my all-time favorite GPL projects.
 Navigate to the directory where the .aax file is that you’d like to test on, and perform the following on the command line:
 ffmpeg -activation_bytes 1CEB00DA -i test.aax -vn -c:a copy output.mp4 Doing this creates an mp4 container with only an AAC audio stream inside.</description>
@@ -111,10 +111,10 @@ ffmpeg -activation_bytes 1CEB00DA -i test.aax -vn -c:a copy output.mp4 Doing thi
     
     <item>
       <title>Hacking Isn’t Searching; It’s Quartering</title>
-      <link>http://example.org/posts/2018-06-25-hacking-is-quartering/</link>
+      <link>/posts/2018-06-25-hacking-is-quartering/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2018-06-25-hacking-is-quartering/</guid>
+      <guid>/posts/2018-06-25-hacking-is-quartering/</guid>
       <description>A common critique of the deep state’s dragnet surveillance operation is to depict it as a violation of the Fourth Amendment. The pundits and politicians who publicly railed against the recent NSA and FBI revelations commonly referred to the issue as one of “warrant-less” wiretapping, data collection, and spying.
 But that isn’t quite the game that signals intelligence analysts and network security experts are playing.
 The invocation of the term “warrant-less” is unsurprising; it hearkens back to the Watergate scandal, and by making that comparison, it helps to make the case that these surveillance programs were just as serious and important as that major kerfuffle back in 1972.</description>
@@ -122,20 +122,20 @@ The invocation of the term “warrant-less” is unsurprising; it hearkens back 
     
     <item>
       <title>Tyrannical Illiteracy</title>
-      <link>http://example.org/posts/2017-12-10-tyrannical-illiteracy-pt1/</link>
+      <link>/posts/2017-12-10-tyrannical-illiteracy-pt1/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2017-12-10-tyrannical-illiteracy-pt1/</guid>
+      <guid>/posts/2017-12-10-tyrannical-illiteracy-pt1/</guid>
       <description>In this series of essays, I explore the causes behind the Western world’s regression into tribalism, conflict, and intellectual malaise. As a proponent of Marshall McLuhan’s assessment of digital media, I assert that we arrived at our current situation by being irresponsible consumers of media technology.
 By ignoring the prophetic analyses of McLuhan, we brought our own civilization to its knees, allowing the arrival of the “global village.” There is nothing but aggression, conflict, and strife to be found in this village, and until media literacy becomes a commonality in our culture, we can expect to remain in this unfortunate state.</description>
     </item>
     
     <item>
       <title>FFmpeg 3.0 Is Here</title>
-      <link>http://example.org/posts/2016-02-14-ffmpeg3ishere/</link>
+      <link>/posts/2016-02-14-ffmpeg3ishere/</link>
       <pubDate>Mon, 15 Feb 2016 04:11:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/2016-02-14-ffmpeg3ishere/</guid>
+      <guid>/posts/2016-02-14-ffmpeg3ishere/</guid>
       <description>The team behind FFmpeg unveiled a major new release, “Einstein,” recently, and in the release notes appears a strongly-worded suggestion:
 We strongly recommend users, distributors, and system integrators to upgrade unless they use current git master.
 (By the way, if you’re thinking that today may be the day to look into FFmpeg’s git master – don’t. Seriously, just don’t. This is no slight against the FFmpeg team - it’s just that with a project of this nature, you have to build the nightly release every day to get helpful suppo rt.</description>
