@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://agrathwohl.github.io/grathwohl.me/'
 languageCode = 'en-us'
 title = 'Grathwohl.me'
 theme = "hugo-tufte"
