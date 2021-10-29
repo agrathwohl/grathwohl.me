@@ -1,0 +1,63 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Grathwohl.me'
+theme = "hugo-tufte"
+math = true
+katex = true
+
+[params]
+  subtitle = "A Place For My Radical Immersions"
+  showPoweredBy = false
+  copyrightHolder = "Andrew Grathwohl"
+  codeBlocksDark = true
+  github = "agrathwohl"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "Posts"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100
+  identifier = "posts"
+  url = "/posts"
+[[menu.nav]]
+  name = "Categories"
+  pre = "<i class='fas fa-tags fa-lg'></i> "
+  weight = -90
+  identifier = "categories"
+  url = "/categories"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -80
+  identifier = "about"
+  url = "/about"
+
+[[menu.footer]]
+  name = "MULTIPLI.CITY"
+  pre = "△"
+  weight = -90
+  identifier = "custom_link"
+  url = "https://multipli.city"
+
+
+# Don't change the settings below
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # make the shortcodes work
+  [markup.highlight]
+      noClasses = false
+
+pygmentsUseClasses = true
+canonifyurls = true
